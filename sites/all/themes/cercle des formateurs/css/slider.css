@@ -1,0 +1,91 @@
+/* -------------------------------------------------- SLIDER -------------------------------------------------- */
+
+.view-slideshow-accueil {
+	height: 355px;
+	width: 672px;
+	position: relative;
+	overflow: hidden;
+}
+
+.view-slideshow-accueil #views_slideshow_cycle_main_slideshow_accueil-block {
+	height: 318px;
+	position: absolute;
+	left: 0;
+}
+
+.view-slideshow-accueil .views_slideshow_slide {
+	height: 318px;
+	width: 672px;
+	float: left;
+}
+.view-slideshow-accueil .views_slideshow_slide .views-field-field-image-ou-photo img {
+	position: absolute;
+	z-index: 1;
+}
+.view-slideshow-accueil .views_slideshow_slide .views-field-title {
+	height: 70px;
+	width: 672px;
+	/* background: rgba(255,255,255,.8); */
+	background: url('../img/assets/white80.png');
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+}
+.view-slideshow-accueil .views_slideshow_slide .views-field-title span{
+	font-size: 16px;
+	color: #6db68f;
+	font-weight: normal;
+	margin-top: 18px;
+	margin-left: 23px;
+	position:absolute;
+}
+.view-slideshow-accueil .views_slideshow_slide .views-field-field-description div{
+	font-weight: normal;
+	margin-left: 23px;
+	color: black;
+	font-size: 13px;
+	margin-top: 290px;
+	position: absolute;
+	z-index: 2;
+}
+
+
+/*En savoir plus*/
+.view-slideshow-accueil .views_slideshow_slide .views-field-field-lien-vers-page, .view-slideshow-accueil .views_slideshow_slide .views-field-field-lien-vers-page-2 {
+	float: right;
+	margin-left: 545px;
+	margin-top: 280px;
+	position: absolute;
+	z-index: 2;
+}
+
+
+.view-slideshow-accueil .views-slideshow-controls-bottom {
+	position: absolute;
+	width: 100%;
+	background: black;
+	height: 37px;
+	bottom: 0;
+}
+.view-slideshow-accueil #widget_pager_bottom_slideshow_accueil-block {
+	width: 100%;
+	height: 100%;
+	background: #5e534e;
+	border-top: solid 2px #7e7e7e;
+}
+.view-slideshow-accueil #widget_pager_bottom_slideshow_accueil-block .views_slideshow_pager_field_item {
+	display: block;
+	float: left;
+	height: 100%;
+	text-align: center;
+	color: #898583;
+	border-left: solid 1px #7e7e7e;
+	font-size: 11px;
+	padding-top: 12px;
+	cursor: pointer;
+	font-weight: 100;
+}
+.view-slideshow-accueil #widget_pager_bottom_slideshow_accueil-block .active {
+	color: white;
+	background: url("../img/assets/sliderNav_background.png") repeat;
+}

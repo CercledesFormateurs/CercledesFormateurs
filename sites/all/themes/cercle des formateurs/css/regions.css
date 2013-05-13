@@ -1,0 +1,28 @@
+/* -------------------------------------------------- regions -------------------------------------------------- */
+
+.region, body > .node-document-affiche, body .node-document-affiche {
+	width: 905px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* ---------- Le contenu ------------- */
+/*.region-content{
+	min-height: 600px;
+}*/
+
+#block-block-18, #block-block-7, #block-views-d-bat-du-moment-block{
+	width: 190px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#block-views-slideshow-accueil-block, #pushPedago, .edito, #block-system-main {
+	width: 672px;
+	position: relative;
+}
+#block-block-6 {
+	width: 100%;
+	margin-bottom: 28px;
+}
+

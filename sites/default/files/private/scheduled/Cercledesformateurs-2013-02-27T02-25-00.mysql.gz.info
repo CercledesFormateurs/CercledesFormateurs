@@ -1,0 +1,8 @@
+filename = "Cercledesformateurs-2013-02-27T02-25-00"
+description = ""
+datestamp = "1361928302"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.18"
+sites[0][name] = "Cercle des formateurs"
+sites[0][url] = "http://cercle-des-formateurs.fr/preprod3/"

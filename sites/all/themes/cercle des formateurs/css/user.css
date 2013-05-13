@@ -1,0 +1,156 @@
+.view-histo-dl, .view-doc-forma, .view-article-forma{
+	width: 820px;
+	margin: 0 auto;
+	height: 170px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.view-doc-forma .node-document-affiche {
+	width: auto;
+}
+
+.view-histo-dl .views-row,.view-doc-forma .views-row, .view-article-forma .views-row{
+	margin-top: 15px;
+	height: 151px;
+	width: 251px;
+	margin-right: 0px;
+	margin-left: 22px;
+	float: left;
+	position: relative;
+	
+	background: url('../img/assets/product_background.png');
+}
+.view-histo-dl .views-field-field-image-illustration img ,.view-doc-forma .field-name-field-image-illustration img, .view-article-forma .views-field-field-image img{
+	height: 81px;
+	width: 230px;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+.view-histo-dl .views-field-line-item-title,.view-doc-forma h2 a, .view-article-forma .views-field-title a{
+	font-size: 14px;
+	margin-left: 9px;
+	color: #5d524c;
+	font-weight: 500;
+	margin-top: 101px;
+	text-decoration: none;
+	max-width: 170px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	height: 16px;
+}
+
+.view-doc-forma h2 a, .view-article-forma .views-field-title a{
+	position: absolute;
+	/*top: 101px;*/
+}
+.view-histo-dl .views-field-field-note{
+	position: absolute;
+	bottom: 8px;
+	left: 9px;
+}
+
+.view-doc-forma .field-name-field-note, .view-article-forma .views-field-term-node-tid {
+	position: absolute;
+	top: 122px;
+	left: 9px;
+}
+
+.view-article-forma .views-field-term-node-tid{
+	top : 135px;
+	font-size: 11px;
+	color: #787878;
+}
+
+.view-histo-dl .views-field-field-note .description, .view-doc-forma .views-field-field-note .description{
+	display: none;
+}
+
+.view-histo-dl .views-field-field-type-contenu{
+	position: absolute;
+	bottom: 29px;
+	right: 10px;
+	font-size: 11px;
+	color: #787878;
+}
+
+.view-doc-forma .field-name-field-type-contenu{
+	position: absolute;
+	left: 231px;
+	top: 93px;
+	font-size: 11px;
+	color: #787878;
+}
+
+.view-histo-dl .views-field-commerce-file-license-file{
+	float: right;
+	margin-top: 10px;
+	margin-right: 9px;
+}
+.view-article-forma .views-field-view-node {
+	float: right;
+margin-top: 28px;
+}
+.view-article-forma .views-field-view-node {
+	margin-top: 130px;
+	margin-right: 9px;
+}
+
+.view-doc-forma .link-wrapper .node-readmore a{
+	top: 88px;
+	position: relative;
+	text-decoration: none;
+}
+
+.view-histo-dl .views-field-commerce-file-license-file .file-icon{
+	display: none;
+}
+
+
+.view-histo-dl .views-field-field-image-illustration, .view-doc-forma .field-name-field-image-illustration, .view-article-forma .views-field-field-image{
+	width: 234px;
+	height: 85px;
+	background: url('../img/assets/cadreProduct.png');
+	position: absolute;
+	margin-left: 8px;
+	margin-top: 9px;
+}
+
+.view-histo-dl .views-field-commerce-file-license-file a, .view-doc-forma .views-field-nothing a{
+	text-decoration: none;
+}
+
+.view-doc-forma .field-name-field-theme-document
+{
+	position: absolute;
+	top:116px;
+	left:9px;
+}
+
+.more-art, .more-doc{
+	width: 905px;
+	display: none;
+}
+
+.more-art hr, .more-doc hr{
+	height: 1px;
+	width: 730px;
+	margin-left: 65px;
+	top: 8px;
+	position: relative;
+	z-index: 10;
+	border: none;
+	background: #5f544f;
+	margin-top: 23px;
+}
+
+.more-art .btn, .more-doc .btn{
+	margin-top: 13px;
+	float: right;
+	position: relative;
+	left: -40px;
+	top: -28px;
+	z-index: 20;
+}

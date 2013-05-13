@@ -1,0 +1,5 @@
+name = Alter Registration
+description = Alter Registration
+core = 7.x
+project = "Module Perso"
+package = "Module Perso"

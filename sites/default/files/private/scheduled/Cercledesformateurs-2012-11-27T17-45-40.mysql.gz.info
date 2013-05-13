@@ -1,0 +1,8 @@
+filename = "Cercledesformateurs-2012-11-27T17-45-40"
+description = ""
+datestamp = "1354034744"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.16"
+sites[0][name] = "Cercle des formateurs"
+sites[0][url] = "http://aaf.emilie-delair.fr/"

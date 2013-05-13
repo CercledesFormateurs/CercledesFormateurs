@@ -1,0 +1,3 @@
+name = Edit User
+description = A block module that edit the profile form user.
+core = 7.x

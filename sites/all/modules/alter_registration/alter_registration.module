@@ -1,0 +1,90 @@
+<?php
+//pour restreindre l'accès : assez inutile dans ce cas la mais bon ...
+/*function alter_registration_perm() {
+   return array('alter registration');
+}
+
+function alter_registration_form_alter(&$form, &$form_state) {
+    global $user;
+    print_r($form);
+    if ($form['#user_category'] == 'account' || $form['#user_category'] == 'register') {
+
+        //on enleve le validate d'ici
+        //$form['#validate'][] ='alter_registration_form_validate';
+        //fonction pour le test du code postal
+        $form['#validate'][] ='alter_registration_form_validate_code';
+        $form['#submit'][] ='alter_registration_form_submit';
+
+        $form['info_perso']= array(
+            '#type' => 'fieldset',
+            '#title' => t('Informations Personnelles'),
+            '#weight' => 5,
+            '#collapsible' => TRUE,
+            '#collapsed' => FALSE,
+        );
+
+        $form['info_perso']['nom']= array(
+            '#type' => 'textfield',
+            '#title' => 'Nom',
+            '#default_value'=>$user->nom,
+            '#maxlength' => 55,
+            '#required'=> TRUE,
+            );
+        $form['info_perso']['prenom']= array(
+            '#type' => 'textfield',
+            '#title' => 'Prenom',
+            '#default_value'=>$user->prenom,
+            '#maxlength' => 55,
+            '#required'=> TRUE,
+            );
+
+        $form['info_perso']['adresse']= array(
+            '#type' => 'textfield',
+            '#title' => 'Adresse',
+            '#default_value'=>$user->adresse,
+            '#required'=> TRUE,
+            );
+            
+           $form['info_perso']['cp']= array(
+            '#type' => 'textfield',
+            '#title' => 'Code Postal',
+            '#maxlength' => 5,
+            '#default_value'=>$user->cp,
+            '#required'=> TRUE,
+            ); 
+            $form['info_perso']['ville']= array(
+            '#type' => 'textfield',
+            '#title' => 'Ville',
+            '#default_value'=>$user->ville,
+            '#required'=> TRUE,
+            ); 
+            
+            
+      
+        if ($form_id=="user_register"){
+            $form['info_perso']['condition']=array(
+                        '#type' => 'checkbox',
+                        '#title'=> 'J\'accepte les conditions générales d\'utilisation',
+                        '#required' => TRUE,
+                 );
+             //on ajoute le validate ici qui ne sera fait que sur le formulaire d'enregistrement
+             $form['#validate'][] ='alter_registration_form_validate';
+        }
+        
+    }
+
+}
+
+function alter_registration_form_validate($form, &$form_state) {
+    if (!$form_state['values']['condition']){
+        form_set_error('condition', 'Vous devez accepter les conditions d\'utilisation pour vous enregistrer');
+    }
+}
+
+function alter_registration_form_validate_code($form, &$form_state) {
+      if(strlen($form_state['values']['code_postal'])!=5 && !is_numeric($form_state['values']['code_postal'])){
+        form_set_error('code_postal','Un code postal est composée de 5 chiffre');
+    }
+}
+*/
+?>

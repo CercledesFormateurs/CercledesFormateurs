@@ -1,0 +1,45 @@
+name = Cercle des formateurs
+description = Theme Cercle des formateurs.
+core = 7.x
+version = 7.x-dev
+engine = phptemplate
+
+regions[page_top] = Page top
+regions[header] = Header
+regions[highlight] = Highlight
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer] = Footer
+regions[page_bottom] = Page bottom
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = search
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/commun.css
+stylesheets[all][] = css/slider.css
+stylesheets[all][] = css/regions.css
+stylesheets[all][] = css/header-footer.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/bibli.css
+stylesheets[all][] = css/forum.css
+stylesheets[all][] = css/contact.css
+stylesheets[all][] = css/actus.css
+stylesheets[all][] = css/user.css
+stylesheets[all][] = css/panier.css
+
+scripts[] = js/html5shiv.js
+scripts[] = js/script.js
+scripts[] = js/forum.js
+scripts[] = js/useful.js
+scripts[] = js/cufon-yui.js
+scripts[] = js/font.js

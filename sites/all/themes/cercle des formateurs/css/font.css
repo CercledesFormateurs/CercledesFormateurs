@@ -1,0 +1,10 @@
+@font-face {
+		font-family: 'ITCAvantGardePro-Md';
+		src: url('../font/itcavantgardepromd.eot');
+		src: url('../font/itcavantgardepromd.eot?#iefix') format('embedded-opentype'),
+				 url('../font/itcavantgardepromd.woff') format('woff'),
+				 url('../font/itcavantgardepromd.ttf') format('truetype'),
+				 url('../font/itcavantgardepromd.svg#itcavantgardepromd') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
